@@ -32,11 +32,9 @@ body{
     font-size: 15px;
 }
 
-.user{
+.user img{
     display: flex;
-    font-size: 20px;
-    align-items: center;
-    width: 5px;
+    height: 30px;
 }
 
 .text p{
@@ -49,12 +47,20 @@ body{
     font-size: 70%;
 }
 
-.rigth{
+.head-left{
     display: flex;
-    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    gap: 5px;
 }
 
-.hastag img{
+.head-rigth{
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.points img{
     height: 25px;
 }
 
@@ -85,12 +91,15 @@ body{
 
 .left{
     display: flex;
-    gap: 20px;
+    margin-top: 5px;
+    margin-left: 8px;
+    gap: 15px;
 }
 
-.rigth i{
+.rigth {
     display: flex;
-    justify-content: flex-end;
+    margin-right: 7px;
+    margin-top: 5px;
 }
 
 p {
