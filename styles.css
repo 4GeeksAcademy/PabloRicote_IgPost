@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto";
+    background: grey;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 700px;
+    width: 500px;
+    border: 1px solid grey;
+    background: white;
+    margin: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    margin: 10px 10px;
+   flex-direction: row;
+   display: flex;
+   justify-content: space-between;
+}
+
+.text{
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.user{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    width: 5px;
+}
+
+.text p{
+    margin: 0px;
+   
+}
+
+.it{
+    font-style: italic;
+    font-size: 70%;
+}
+
+.rigth{
+    display: flex;
+    align-items: center;
+}
+
+.hastag img{
+    height: 25px;
+}
+
+
+.img-container{
+    overflow: hidden;
+    border: 1px 1px;
+    margin: 10px 0px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.post-body{
+    display: flex;
+    margin: 1px;
+    flex-direction: column;
+}
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.left{
+    display: flex;
+    gap: 20px;
+}
+
+.rigth i{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+    margin: 10px 10px;
+}
